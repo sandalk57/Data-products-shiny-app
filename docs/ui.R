@@ -48,7 +48,9 @@ shinyUI(fluidPage(
                      tags$head(tags$style("#mytext{
                                  font-size: 12px;
                                  font-style: italic;
-                                 }")))
+                                 }"))),
+            # Show documentation
+            tabPanel('Help page', textOutput('mytext2'))
          )
       )
    )

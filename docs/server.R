@@ -45,6 +45,9 @@ shinyServer(
                         addTiles() 
             })
             
+            output$mytext2 <- renderText({
+                  "Select the countries  and dates you want to show COVID-19 cases or deaths data from"
+            })
             
             
             observe({
@@ -139,6 +142,8 @@ shinyServer(
                   output$mytext <- renderText({
                         "Data downloaded on 22nd November 2021"
                   })
+                  
+                  
             }
             )
             
