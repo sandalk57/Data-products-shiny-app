@@ -16,7 +16,7 @@ The app can be found at:
 https://sandalk57.shinyapps.io/COVID-19_tracker_app/
 
 Source code for ui.R and server.R files are available on the GitHub:
-<link to app>
+https://github.com/sandalk57/Data-products-shiny-app.git
 
 ## COVID-19 Tracker App 
 
